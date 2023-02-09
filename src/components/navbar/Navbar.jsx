@@ -53,7 +53,7 @@ const Navbar = () => {
             alt=""
           />
           <div className="profile">
-            <ArrowDropDown className="icon" />
+            <ArrowDropDown className="icon" onClick={handleLogout}/>
             <div className="options">
               <span>Settings</span>
               <span onClick={handleLogout} className="logoutt">Logout</span>
